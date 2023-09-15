@@ -13,8 +13,13 @@ body {
   background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
-
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 a {
   color: #f82249;
   transition: 0.5s;
@@ -61,6 +66,9 @@ h6 {
   visibility: hidden;
 }
 
+.headline{
+  background:#383d4e;
+}
 /* Prelaoder */
 
 #preloader {
@@ -483,7 +491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   height: 100vh;
   /* background: url(../img/intro-bg.jpg) top center; */
-  background: url("https://charusat.ac.in/cspit/images/CSPIT_SLIDER_3.webp") top
+  background: url("../img/CSPIT_SLIDER_3.webp") top
     center;
   background-size: cover;
   overflow: hidden;
@@ -493,6 +501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
+  opacity: 85%;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1675,3 +1684,42 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+.timer{
+  border-radius: 50px;
+  width: 40%;
+}
+.timer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer{
+  padding: 2% 0%;
+}
+.card{
+  margin: 15px 0px;
+}
+
+.about_content, .conference_track_content{
+  text-align: justify;
+}
+.time-remaining{
+  margin: auto;
+    margin-top: 2rem;
+}
+
+.timer_container{
+  width: 800px;
+  margin-top: 2%;
+  
+}
+
+.card-body{
+  min-height: 600px;
+}
+
+.row{
+  padding: 5%;
+}
+
