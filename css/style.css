@@ -152,7 +152,7 @@ h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -1416,15 +1416,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
-  padding: 0 0 25px 0;
+  background: #040919;
+  padding: 0 0 0 0;
   color: #eee;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1711,15 +1710,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .timer_container{
   width: 800px;
-  margin-top: 2%;
-  
+  margin-top: 2.5%;
 }
 
 .card-body{
-  min-height: 600px;
+  min-height: 400px;
+}
+.c3{
+  min-height: 500px;
 }
 
 .row{
   padding: 5%;
 }
+.gallery-carousel a img{
+height: 250px;
+}
 
+.img_publication{
+  display: grid;
+  grid-template-columns: repeat(3,1fr)
+}
+.img_publication img{
+  width: 250px;
+}
